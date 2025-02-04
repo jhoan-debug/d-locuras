@@ -1,0 +1,182 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    background-color: #ADD8E6; /* Fondo azul claro */
+    font-family: Arial, sans-serif; /* Fuente general */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del título (h1) */
+h1 {
+    color: #3107c9; /* Color morado */
+    text-align: center; /* Centrar el texto */
+    padding-top: 50px; /* Espaciado superior */
+}
+
+/* Estilo del botón */
+button {
+    background-color: #ba0000; /* Color de fondo rojo oscuro */
+    color: white; /* Texto en blanco */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor cuando pasas sobre el botón */
+    display: block;
+    margin: 20px auto; /* Centrar el botón horizontalmente */
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: #005f6a; /* Color cuando el mouse pasa por encima (verde oscuro) */
+}
+
+.logo img {
+    width: 150px; /* Puedes cambiar este valor según lo que desees */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Galería */
+.galeria-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap; /* Hace que las imágenes se acomoden en varias filas si no hay suficiente espacio */
+}
+
+.galeria-container img {
+    width: 30%;  /* Aquí haces que cada imagen ocupe el 30% del contenedor */
+    height: auto; 
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.galeria-container img:hover {
+    transform: scale(1.05); /* Da un efecto de zoom cuando el cursor pasa sobre la imagen */
+}
+
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del header (barra de navegación) */
+header {
+    background-color: #005f73; /* Azul oscuro complementario */
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 5px solid #ff0000; /* Borde inferior rojo */
+}
+
+/* Estilo de la imagen del logo */
+header .logo img {
+    width: 100px;
+}
+
+/* Estilo de la barra de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la sección de bienvenida */
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e2e2e2;
+    border-bottom: 5px solid #ff0000; /* Borde inferior rojo */
+}
+
+.welcome h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.welcome button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome button:hover {
+    background-color: #555;
+}
+
+/* Estilo de la sección de servicios */
+.services, .gallery {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-bottom: 5px solid #ff0000; /* Borde inferior rojo */
+}
+
+.services h2, .gallery h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los items de los servicios */
+.service-item, .gallery-item {
+    display: inline-block;
+    margin: 15px;
+    width: 30%;
+    text-align: center;
+    border: 3px solid #ff0000; /* Borde rojo */
+    border-radius: 10px;
+}
+
+/* Estilo de las imágenes dentro de los servicios */
+.service-item img, .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #005f73; /* Azul oscuro complementario */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 5px solid #ff0000; /* Borde superior rojo */
+}
